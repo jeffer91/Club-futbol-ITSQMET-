@@ -1,0 +1,1 @@
+{"name":"club-futbol-api","private":true,"type":"module","scripts":{"dev":"wrangler dev","deploy":"wrangler deploy"},"dependencies":{"@neondatabase/serverless":"^1.0.1"},"devDependencies":{"wrangler":"^4.33.0"}}
