@@ -1,0 +1,49 @@
+/* Identidad futbolera ITSQMET · overrides */
+:root{
+  --bg:#eef4ef;
+  --surface:#ffffff;
+  --text:#10231b;
+  --muted:#607068;
+  --line:#d7e2da;
+  --accent:#137a45;
+  --accent-2:#0b5d34;
+  --soft:#e4f3e9;
+  --pitch:#176b3a;
+  --pitch-dark:#0e4d2b;
+  --navy:#102a43;
+  --danger:#bd2f2f;
+  --warning:#e0a100;
+}
+body{background:linear-gradient(180deg,#f3f7f4 0,#edf4ef 100%);color:var(--text)}
+.topbar{background:rgba(255,255,255,.96);border-bottom:1px solid #d8e4dc;box-shadow:0 1px 0 rgba(16,35,27,.03)}
+.brand{gap:9px}.brand-mark{display:none!important}.brand-logo{width:34px;height:34px;border-radius:10px;object-fit:cover;object-position:center;background:#fff;border:1px solid #d8e4dc;padding:2px;box-shadow:0 2px 7px rgba(16,35,27,.08)}
+.brand small{color:#5c6f64}.nav-links a:hover,.nav-links a.active,.nav-links button:hover{background:#e8f3eb;color:#0b5d34}
+.btn.accent{background:var(--accent);box-shadow:0 5px 14px rgba(19,122,69,.16)}.btn.accent:hover{background:var(--accent-2)}.btn.secondary{border-color:#cfdcd3;background:#fff}.btn.secondary:hover{border-color:#9fbea9;background:#f8fbf9}
+.eyebrow{background:#dff1e5;color:#0b5d34}
+.card,.form-card,.table-wrap,.wizard-card{border-color:#d6e2d9;box-shadow:0 3px 14px rgba(17,52,34,.035)}
+.card{background:rgba(255,255,255,.97)}
+.card.soft{background:linear-gradient(180deg,#fff,#f7fbf8)}
+.feature{border-top:3px solid #76b68e}.feature .icon{background:#e0f1e6;color:#0b5d34}
+.tabs{padding:4px;background:#e4eee7;border-radius:12px;width:max-content;max-width:100%}.tab{border:0;background:transparent}.tab.active{background:#145f38;border-color:#145f38;color:#fff;box-shadow:0 2px 7px rgba(20,95,56,.16)}
+.table-wrap thead th{background:#eef6f0;color:#42584a}.table-wrap tbody tr:hover{background:#f7fbf8}
+.side-link.active,.side-link:hover{background:#e5f2e8;color:#0b5d34}.sidebar{border-color:#d4e1d7}
+.notice{background:#e5f3e9;color:#175f39}.badge.success{background:#e4f5e9;color:#096534}.badge.info{background:#e7f0f8;color:#174a6f}
+.field input:focus,.field select:focus,.field textarea:focus{border-color:#2d8a55;box-shadow:0 0 0 3px rgba(45,138,85,.10)}
+.hero{position:relative;overflow:hidden;background:linear-gradient(135deg,#0d552f 0%,#167540 52%,#0f6337 100%);color:#fff;padding:34px 0 26px;border-bottom:0}
+.hero::before{content:"";position:absolute;inset:15px;border:1.5px solid rgba(255,255,255,.18);border-radius:18px;pointer-events:none}
+.hero::after{content:"";position:absolute;top:-12%;bottom:-12%;left:50%;width:1px;background:rgba(255,255,255,.18);box-shadow:-190px 0 0 rgba(255,255,255,.05),190px 0 0 rgba(255,255,255,.05);pointer-events:none}
+.hero .container{position:relative;z-index:1}
+.hero .eyebrow{background:rgba(255,255,255,.14);color:#fff;border:1px solid rgba(255,255,255,.12)}
+.hero h1{color:#fff;text-shadow:0 1px 0 rgba(0,0,0,.08)}
+.hero p{color:rgba(255,255,255,.84)}
+.hero .btn.secondary{background:#fff;color:#123626;border-color:#fff}
+.hero-layout{display:grid;grid-template-columns:minmax(0,1fr) 220px;gap:28px;align-items:center}.hero-copy{min-width:0}.hero-mascot-wrap{display:flex;justify-content:center;align-items:flex-end;height:205px}.hero-mascot{width:210px;height:210px;object-fit:cover;object-position:center;border-radius:50%;background:#fff;border:5px solid rgba(255,255,255,.82);box-shadow:0 14px 35px rgba(0,0,0,.16)}
+.scoreboard{background:linear-gradient(145deg,#102a43,#183d5b);color:#fff;border-color:#234b69}.scoreboard .label{color:#b9ccd9}.scoreboard .value{color:#fff}.scoreboard p{color:#c8d6df}
+.registration-page,.registration-main{background:linear-gradient(180deg,#eef5f0 0,#f7faf8 42%,#eef5f0 100%)}
+.registration-intro .eyebrow,.wizard-kicker{color:#0b5d34}.progress-track span{background:#167540}.wizard-step-label.active span{background:#145f38}.wizard-step-label.done span{background:#e0f1e6;color:#0b5d34}.wizard-card{background:rgba(255,255,255,.98)}
+.player-row{border-color:#d9e4dc;background:#f8fbf9}.roster-note{background:#edf6f0;color:#4f6657}
+.admin-head .eyebrow{background:#dff0e5}.admin-panel .stat{border-top:3px solid #77b68f}.admin-panel .stat .value{color:#0b5d34}
+#refLoginBox,#adminLoginBox .form-card{border-top:4px solid #167540}
+.footer{color:#5d7066}.footer-row{border-top-color:#d7e2da}
+@media(max-width:760px){.hero-layout{grid-template-columns:1fr}.hero-mascot-wrap{display:none}.hero::before{inset:10px}.brand-logo{width:31px;height:31px}.tabs{width:100%}}
+@media(max-width:520px){.hero{padding:28px 0 22px}.hero h1{font-size:34px}.nav-links{gap:2px}.nav-links a,.nav-links button{padding:6px 7px}.brand span{line-height:1.1}}
