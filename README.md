@@ -1,4 +1,4 @@
-# Club de Fútbol NEXUM · Campeonato 6×6
+# Club de Fútbol ITSQMET · Campeonato 6×6
 
 Sistema minimalista para organizar el campeonato institucional desde un único repositorio.
 
